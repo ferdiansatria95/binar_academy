@@ -1,0 +1,19 @@
+tags:
+    - name: Text Preprocessing API with File
+consumes:
+    - multipart/form-data
+parameters:
+    - name : File Input
+      in : formData
+      description : Please input your text file to clean
+      required: true
+      type: file
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '401':
+      description: Not Found
+    '500':
+      description: Internal Server Error    

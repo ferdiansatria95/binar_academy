@@ -1,0 +1,14 @@
+tags:
+    - name: Welcome Page
+get:
+    summary: Welcome Page
+    description: Welcome to Tweet Cleaner
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '401':
+      description: Not Found
+    '500':
+      description: Internal Server Error

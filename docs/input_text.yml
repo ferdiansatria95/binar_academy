@@ -1,0 +1,18 @@
+tags:
+    - name: Text Preprocessing API with Text
+get:
+    description: Teks yang akan diproses
+parameters:
+    -   name : text
+        in   : formData
+        required : true
+        type : string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '401':
+      description: Not Found
+    '500':
+      description: Internal Server Error
