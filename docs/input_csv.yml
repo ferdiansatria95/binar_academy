@@ -3,7 +3,7 @@ tags:
 consumes:
     - multipart/form-data
 parameters:
-    - name : File Input
+    - name : file
       in : formData
       description : Please input your text file to clean
       required: true
