@@ -145,6 +145,8 @@ def handle_500_error(_error):
 if __name__ == '__main__':
     app.run()
 
+### Tambahan Comment Internet untuk Rakyat
+
 
 # In[ ]:
 
